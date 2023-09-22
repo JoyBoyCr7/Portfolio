@@ -10,7 +10,7 @@ function Projects(){
             <img src={require('../images/pone.png')}/>
             <p>The NBA Trivia app was created to test the user's knowledge of basketball history. JQuery was the main tool used to create this application.</p>
             <a href='https://sportsflash.onrender.com/'>Visit this project</a>
-            </div>
+        </div>
     </div>
 }
 
