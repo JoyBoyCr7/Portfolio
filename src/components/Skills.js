@@ -1,7 +1,7 @@
 function Skills(){
     return <div className="skill">
         <div className="languages">
-            <h3>languages</h3>
+            <h3>Languages</h3>
             <ul>
                 <li>JavaScript</li>
                 <li>Python</li>
