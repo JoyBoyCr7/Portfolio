@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-image: url("./images/background.png");
+  color: white;
 }
 
 .App-logo {
@@ -59,3 +61,4 @@ ul{
   border-radius: 50%;
   shape-outside: circle(50%);
 }
+
