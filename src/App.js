@@ -8,11 +8,11 @@ import Projects from './components/projects';
 import AboutMe from './components/aboutme';
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{}}>
       <Header/>
+      <AboutMe/>
       <Skills/>
       <Projects/>
-      <AboutMe/>
       <Outlet/>
     </div>
   );

@@ -49,3 +49,13 @@ ul{
 .projects{
   display: flex;
 }
+
+
+/* Myimg styleing */
+
+.myimage{
+  height: 200px;
+  float: left;
+  border-radius: 50%;
+  shape-outside: circle(50%);
+}

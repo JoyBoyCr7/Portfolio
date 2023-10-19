@@ -1,5 +1,8 @@
 function Header(){
-    return <h1>Welcome to Ronard's Portfolio</h1>
+    return <div> 
+        <h1>Ronard Nyongkah</h1>
+        <h3>Software Engineer</h3>
+     </div>
     
 }
 
