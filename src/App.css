@@ -69,3 +69,11 @@ ul{
   shape-outside: circle(50%);
 }
 
+.cvbutton:hover{
+  background-color: beige;
+  color: black;
+}
+
+.cvbutton{
+  background-color: grey;
+}

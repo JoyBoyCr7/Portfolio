@@ -6,7 +6,7 @@ function Header(){
         <h3>Software Engineer</h3>
         </div>
         <div style={{display:"flex", justifyContent:"center", flexDirection:"column", marginRight:"3rem"}}>
-            <a href={resume} download="Ronard Nyongkah Resume" ><button style={{backgroundColor:"gray" }}>Download CV</button></a>
+            <a  href={resume} download="Ronard Nyongkah Resume" ><button className="cvbutton"  >Download CV</button></a>
        </div>
      </div>
 }
