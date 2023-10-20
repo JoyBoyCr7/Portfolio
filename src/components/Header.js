@@ -5,7 +5,7 @@ function Header(){
         <h1>Ronard Nyongkah</h1>
         <h3>Software Engineer</h3>
         </div>
-        <a href={resume} download="ronardResume" style={{display:"flex", alignItems:"center", marginLeft:"500px"}}>Ronard Nyongkah's Resume</a>
+        <a href={resume} download="Ronard Nyongkah Resume" style={{display:"flex", alignItems:"center", marginLeft:"500px"}}>Resume</a>
        
      </div>
     
