@@ -14,7 +14,7 @@ function Projects(){
                 <p>Visit this <a href='https://jobby-job-front.vercel.app/'>project</a> and review the code on <a href='https://github.com/JoyBoyCr7/Jobby_Job_front'> GitHub</a> </p>
             </div>
             <div className='project'>
-                <img src={require('../images/pthree.png')}/>
+                <img src={require('../images/pthree.png') }/>
                 <p>The Cheeseapp project was created to demonstrate my ability to use React. It also incorporates full CRUD (Create, Read, Update, Delete) functionality.</p>
                 <p>Visit this <a href='https://cheese-frontend-zeta.vercel.app/'>project</a> and review the code on <a href='https://github.com/JoyBoyCr7/projectpt2'> GitHub</a> </p>
             </div>
