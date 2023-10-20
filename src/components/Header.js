@@ -1,14 +1,14 @@
 import resume from "../static/Resume.pdf"
 function Header(){
-    return <div style={{display:"flex", justifyContent:"center"}}> 
-        <div style={{marginTop:"20px"}}>
+    return <div style={{display:"flex", justifyContent:"space-between", padding:"10px"}}> 
+        <div style={{margin:"0px auto"}}>
         <h1>Ronard Nyongkah</h1>
         <h3>Software Engineer</h3>
         </div>
-        <a href={resume} download="Ronard Nyongkah Resume" style={{display:"flex", alignItems:"center", marginLeft:"500px"}}>Resume</a>
-       
+        <div style={{display:"flex", justifyContent:"center", flexDirection:"column", marginRight:"3rem"}}>
+            <a href={resume} download="Ronard Nyongkah Resume" ><button style={{backgroundColor:"gray" }}>Download CV</button></a>
+       </div>
      </div>
-    
 }
 
 
