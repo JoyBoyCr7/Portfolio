@@ -1,5 +1,5 @@
 function AboutMe(){
-    return <section style={{display:"flex"}} >
+    return <section style={{display:"flex", justifyContent:"space-between"}} >
         
         <div className="content" style={{width:"50%", margin:"0px auto"}}> 
         <img className="myimage" src="https://media.licdn.com/dms/image/D5603AQEtMvJe0hVjhg/profile-displayphoto-shrink_800_800/0/1688066559792?e=2147483647&v=beta&t=gUwrrJpg82dbNW4f89K-KuacwONLIjfUJ6d_6aZsqwI" alt="img"></img>
@@ -12,7 +12,7 @@ function AboutMe(){
         </p>
         
         </div>
-        <h3 style={{writingMode:"vertical-lr"}}>About Me</h3>
+        <h3 style={{writingMode:"vertical-lr", marginRight:"10rem"}}>About Me</h3>
 
     </section>
 }
