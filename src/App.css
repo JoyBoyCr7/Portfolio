@@ -1,7 +1,11 @@
+#root{
+  background-image: url("./images/background.png");
+}
+html{
+  scroll-behavior: smooth;
+}
 .App {
   text-align: center;
-  background-image: url("./images/background.png");
-  
   color: white;
 }
 
@@ -50,16 +54,20 @@ ul{
 }
 
 .allprojects{
-  display: flex;
-  justify-content: space-around;
-  gap: 10px;
-  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 2fr));
+  grid-auto-rows: 2fr;
 }
 
 .project{
-  border: 2px darkgray solid;
+  border: 10px darkgray solid;
+  border-radius: 5%;
 }
-
+.project:hover{
+  transform: scale(1.1);
+  transition: all .4s ease;
+  border: none;
+}
 /* Myimg styleing */
 
 .myimage{
@@ -76,4 +84,27 @@ ul{
 
 .cvbutton{
   background-color: grey;
+}
+
+
+#navlink{
+  color: white;
+}
+
+.techs{
+  padding: 3rem;
+  border-radius: 10%;
+  background-image: url("./images/background.png");
+}
+
+.techs:hover{
+  background-image: none;
+  transform: scale(1.4);
+  transition: all .4s ease;
+}
+
+footer{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqew9wFR0tEDYpWJ8IK_PiHsZYCtjxSC624IpTpuhtMw&s");
+  background-size: cover;
+  padding: 2rem;
 }
