@@ -1,4 +1,4 @@
-import resume from "../static/RonardResume.pdf"
+import resume from "../static/Ronard_Resume.pdf"
 function Header(){
     return <div style={{display:"flex", justifyContent:"space-between", paddingTop:"4rem",}}> 
         <div style={{margin:"0px auto"}}>

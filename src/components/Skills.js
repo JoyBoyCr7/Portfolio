@@ -28,7 +28,7 @@ function Skills(){
                 <ul>
                     <li>Node.js</li>
                     <li>GitHub</li>
-                    <li>MongoDb</li>
+                    <li>MongoDB</li>
                     <li>PostgreSQL</li>
                 </ul>
             </div>
