@@ -1,5 +1,11 @@
 #root{
-  background-image: url("./images/background.png");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqew9wFR0tEDYpWJ8IK_PiHsZYCtjxSC624IpTpuhtMw&s");
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 html{
   scroll-behavior: smooth;
@@ -94,7 +100,7 @@ ul{
 }
 
 .techs{
-  padding: 3rem;
+  padding: 9rem;
   border-radius: 10%;
   background-image: url("./images/background.png");
 }
