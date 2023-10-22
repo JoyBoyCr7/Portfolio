@@ -112,7 +112,7 @@ ul{
 }
 
 footer{
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqew9wFR0tEDYpWJ8IK_PiHsZYCtjxSC624IpTpuhtMw&s");
+  background-image: url("./images/background.png");
   background-size: cover;
   padding: 2rem;
 }
