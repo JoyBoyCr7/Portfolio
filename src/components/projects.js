@@ -1,5 +1,5 @@
 function Projects(){
-    return <div id='projects' style={{marginTop:"4rem"}}>
+    return <div id='projects' style={{marginTop:"4rem", marginBottom:"4rem"}}>
         <h3>Projects</h3>
         <div className='allprojects' style={{width:"75%", margin:"0px auto", gridGap:"3rem"}}>
             <div className='project'>

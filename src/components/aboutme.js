@@ -1,5 +1,5 @@
 function AboutMe(){
-    return <section style={{display:"flex", justifyContent:"space-between", marginTop:"4rem"}}  id="about" >
+    return <section style={{display:"flex", justifyContent:"space-between", marginTop:"4rem", marginBottom:"4rem"}}  id="about" >
         
         <div className="content" style={{width:"50%", margin:"0px auto"}}> 
         <img className="myimage" src="https://media.licdn.com/dms/image/D5603AQEtMvJe0hVjhg/profile-displayphoto-shrink_800_800/0/1688066559792?e=2147483647&v=beta&t=gUwrrJpg82dbNW4f89K-KuacwONLIjfUJ6d_6aZsqwI" alt="img"></img>

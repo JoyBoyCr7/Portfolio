@@ -47,6 +47,8 @@ html{
 .skill{
   display: flex;
   justify-content: space-around;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 ul{
