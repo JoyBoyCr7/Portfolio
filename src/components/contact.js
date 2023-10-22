@@ -1,6 +1,6 @@
 
 function Contact (){
-    return <footer style={{marginTop:"4rem", paddingBottom:"4rem"}}>
+    return <footer style={{marginTop:"4rem", paddingBottom:"4rem"}} id="contact">
         <h2>Contact</h2>
         <p style={{display:"inline", marginRight:"10px"}}> Email: Rnyongkah@gmail.com,
         <a href='https://www.linkedin.com/in/ronard-nyongkah/'> Linkedin,</a> 
