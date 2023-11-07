@@ -65,7 +65,7 @@ ul{
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 2fr));
   grid-auto-rows: 2fr;
-  grid-template-columns: auto auto auto;
+  /* grid-template-columns: auto auto auto; */
 }
 
 .project{
